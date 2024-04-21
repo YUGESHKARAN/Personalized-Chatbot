@@ -7,7 +7,7 @@ import os
 
 #LANGCHAIN_API_KEY=ls__d543df545ab54ddf943afd9a4e62aeaf
 openai.api_key = st.secrets["OPENAI_API_KEY"]
-st.markdown("""<h1 style="text-align:center;color:#55E6C1;">welcome to <span style='color:red;'> Message bot </span> </h1>""",unsafe_allow_html=True)
+st.markdown("""<h1 style="text-align:center;color:#55E6C1;">welcome to <span style='color:red;'> Chatrobot </span> </h1>""",unsafe_allow_html=True)
 
 st.markdown("""
             
