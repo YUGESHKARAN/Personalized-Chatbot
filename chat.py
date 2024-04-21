@@ -1,8 +1,8 @@
 import streamlit as st
 import openai
 import os
-from dotenv import load_dotenv
-load_dotenv()
+#from dotenv import load_dotenv
+#load_dotenv()
 
 
 #LANGCHAIN_API_KEY=ls__d543df545ab54ddf943afd9a4e62aeaf
@@ -17,7 +17,7 @@ unsafe_allow_html=True)
 
 def show(msg:str):
    if msg is None:
-      st.image("images/n-modified.png")
+      st.image("images/img_banner.png")
       #st.markdown(""" <img style='width:100%' src='images/n-modified.png'> """, unsafe_allow_html=True)
       st.markdown("""
             
