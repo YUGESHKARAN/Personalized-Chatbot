@@ -13,7 +13,7 @@ import streamlit as st
 from groq import Groq
 
 import os
-#import openai
+import openai
 #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
 #os.environ['OPENAI_API_KEY'] = "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" #sample
 
