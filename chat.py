@@ -1,8 +1,8 @@
 import streamlit as st
 import openai
 import os
-#from dotenv import load_dotenv
-#load_dotenv()
+from dotenv import load_dotenv
+load_dotenv()
 
 
 #LANGCHAIN_API_KEY=ls__d543df545ab54ddf943afd9a4e62aeaf
