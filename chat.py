@@ -7,7 +7,7 @@ import os
 
 
 #LANGCHAIN_API_KEY=ls__d543df545ab54ddf943afd9a4e62aeaf
-openai.api_key = st.secrets["OPENAI_API_KEY"]
+openai.api_key = st.secrets["GROQ_API_KEY"]
 #os.environ['OPENAI_API_KEY'] = "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"
 st.markdown("""<h1 style="text-align:center;color:#55E6C1;">welcome to <span style='color:red;'> Chatrobot </span> </h1>""",unsafe_allow_html=True)
 
